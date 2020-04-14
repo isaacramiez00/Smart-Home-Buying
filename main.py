@@ -30,6 +30,6 @@ class properties():
 
 if __name__ == "__main__":
 
-    mls_link = "https://matrix.recolorado.com/Matrix/Public/Portal.aspx?ID=0-1535744368-10"
+    mls_link = os.environ['MLS_FEED_URL']
 
     northern_denver_properties = properties(mls_link)
